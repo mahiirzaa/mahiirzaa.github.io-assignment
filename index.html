@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <link type="text/CSS" href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>assignment 1</title>
+    <style>
+
+        *{ margin: 0; padding: 0; box-sizing: body-box; font-family: 'Mulish', sans-serif;}
+        header{
+            width: 100%;
+            height:100vh;
+            background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+            position:relative;
+        }
+        a {
+            text-decoration: none;
+            color:white;
+            
+        }
+        nav {
+            width:100%;
+            height:19vh;
+            display:flex;
+            justify-content:space-around;
+            align-items:center;
+            position:absolute;
+        }
+        .logo a{
+            color:white;
+            text-decoration:none;
+            font-size: 1.6rem;
+            text-transform:uppercase;
+            font-style:bold;
+        
+        }
+        
+        .menu ul li{
+            list-style:none;
+            display: inline-block;
+            padding:0 15px;
+        }
+        
+        .menu ul li a{
+            text-decoration: none;
+            color: white;
+            text-transform: capitalize;
+            
+        }
+        ul li .active:hover{ 
+            border-top:2px solid #5dade2 ;
+            border-bottom:2px solid #5dade2;
+        }
+        
+        .contact a{
+            background-color:#9B4D95;
+            padding:8px 19px;
+            font-style: 15px;
+            font-weight:500;
+            border: 1px solid transparent;
+            text-transform: capitalize;
+            
+        }
+        .contact a:hover{
+            border: grey;
+            
+        }
+        
+        .center_content {
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            }
+         .center_content h1{
+             color: white;
+             text-transform:capitalize;
+             font-weight:700;
+             font-size: 40px;
+             margin-bottom:10px;
+         }
+         
+         .center_content h2{
+             color: #fff;
+             border-top: 1px solid grey;
+         }
+        
+        footer {
+    background-color: grey;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+         }
+    </style>
+   
+</head>
+<body>
+    <header>
+       
+        <nav class="navbar">
+            <div class="logo">
+            <a href="https://www.khanacademy.org/computing/computer-programming/html-css/html-css-further-learning/e/quiz--validate-this-html" target="blank"> Memzar </a>
+                
+            </div>
+            
+            <div class="menu">
+                <ul>
+                    <li><a href="#" class="active">home</a></li>
+                    <li><a href="#" class="active">services</a></li>
+                    <li><a href="#" class="active">portfolio</a></li>
+                    <li><a href="#" class="active">About</a></li>
+                </ul>
+            </div>
+            
+            <div class="contact">
+            <a href="#">contact me</a>
+                
+            </div>
+        
+        </nav>
+        <div class="center_content">
+        <h1> This is Memzar</h1>
+        <h2>We are happy to serve you</h2>
+        </div>
+        
+    </header>
+   <footer>
+        <p>&copy; 2023 Memzar Website</p>
+    </footer>
+</body>
+</html>
